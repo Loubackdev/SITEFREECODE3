@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size:1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:200px;
+    border: 2px solid black;
+}
+#header-img{
+
+    width:300px;
+}
+.list-info{
+    justify-content: space-evenly;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+}
